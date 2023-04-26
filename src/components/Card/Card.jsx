@@ -3,9 +3,9 @@ import { CardBlock, CardImage, CardLine, CardLogo } from './Card.styled';
 import Avatar from '../Avavtar/Avatar';
 import StatisticsList from '../StatisticsList/StatisticsList';
 import Button from '../Button/Button';
-import { updateFollowers } from '../../utils/backend'; // eslint-disable-line
-import logo from './img/Logo.png'; // eslint-disable-line
-import bg from './img/card-image.png'; // eslint-disable-line
+import { updateFollowers } from '../../utils/backend';
+import logo from 'components/Card/img/Logo.png';
+import bg from 'components/Card/img/card-image.png';
 
 const Card = ({ imageURL, folowers, tweets, id }) => {
   const [isLoading, setIsLoading] = useState(false);
