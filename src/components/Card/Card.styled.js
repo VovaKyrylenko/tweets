@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
-import logo from 'components/Card/img/Logo.png';
-import bg from 'components/Card/img/card-image.png';
+import logo from './img/Logo.png';
+import bg from './img/card-image.png';
 
 export const CardBlock = styled.li`
   width: 380px;
