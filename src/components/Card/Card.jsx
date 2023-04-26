@@ -44,8 +44,8 @@ const Card = ({ imageURL, folowers, tweets, id }) => {
 
   return (
     <CardBlock>
-      <CardLogo src="../../assets/logo.png" />
-      <CardImage src="../../assets/card-image.png" alt="card-image" />
+      <CardLogo src="/assets/logo.png" />
+      <CardImage src="/assets/card-image.png" alt="card-image" />
       <CardLine />
       <Avatar src={imageURL} />
       <StatisticsList folowers={currentFollwers} tweets={tweets} />
