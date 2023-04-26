@@ -4,8 +4,6 @@ import Avatar from '../Avavtar/Avatar';
 import StatisticsList from '../StatisticsList/StatisticsList';
 import Button from '../Button/Button';
 import { updateFollowers } from '../../utils/backend';
-import logo from 'components/Card/img/Logo.png';
-import bg from 'components/Card/img/card-image.png';
 
 const Card = ({ imageURL, folowers, tweets, id }) => {
   const [isLoading, setIsLoading] = useState(false);
@@ -46,8 +44,8 @@ const Card = ({ imageURL, folowers, tweets, id }) => {
 
   return (
     <CardBlock>
-      <CardLogo src={logo} />
-      <CardImage src={bg} alt="card-image" />
+      <CardLogo />
+      <CardImage />
       <CardLine />
       <Avatar src={imageURL} />
       <StatisticsList folowers={currentFollwers} tweets={tweets} />

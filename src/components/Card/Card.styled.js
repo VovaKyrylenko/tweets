@@ -1,5 +1,8 @@
 import styled from '@emotion/styled';
 
+import logo from 'components/Card/img/Logo.png';
+import bg from 'components/Card/img/card-image.png';
+
 export const CardBlock = styled.li`
   width: 380px;
   height: 460px;
@@ -14,12 +17,13 @@ export const CardBlock = styled.li`
   position: relative;
 `;
 
-export const CardLogo = styled.img`
+export const CardLogo = styled.div`
   position: absolute;
   top: 20px;
   left: 20px;
   width: 75px;
   height: 22px;
+  background: url(${logo});
 `;
 
 export const CardImage = styled.img`
@@ -28,6 +32,7 @@ export const CardImage = styled.img`
   height: 168px;
   left: 36px;
   top: 28px;
+  background: url(${bg});
 `;
 
 export const CardLine = styled.div`
