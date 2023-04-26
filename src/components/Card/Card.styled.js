@@ -24,6 +24,7 @@ export const CardLogo = styled.div`
   width: 75px;
   height: 22px;
   background: url(${logo});
+  background-size: contain;
 `;
 
 export const CardImage = styled.div`
