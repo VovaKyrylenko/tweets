@@ -26,7 +26,7 @@ export const CardLogo = styled.div`
   background: url(${logo});
 `;
 
-export const CardImage = styled.img`
+export const CardImage = styled.div`
   position: absolute;
   width: 308px;
   height: 168px;
