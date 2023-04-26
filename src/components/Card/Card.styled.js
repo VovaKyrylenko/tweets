@@ -1,4 +1,4 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
 
 export const CardBlock = styled.li`
   width: 380px;
@@ -18,6 +18,8 @@ export const CardLogo = styled.img`
   position: absolute;
   top: 20px;
   left: 20px;
+  width: 75px;
+  height: 22px;
 `;
 
 export const CardImage = styled.img`
